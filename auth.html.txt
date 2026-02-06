@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Account</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+  <h3>Sign Up</h3>
+  <input id="suEmail" placeholder="Email">
+  <input id="suPass" type="password" placeholder="Password">
+  <button onclick="signup()">Sign Up</button>
+</div>
+
+<div class="box">
+  <h3>Login</h3>
+  <input id="liEmail" placeholder="Email">
+  <input id="liPass" type="password">
+  <button onclick="login()">Login</button>
+</div>
+
+<script src="auth.js"></script>
+</body>
+</html>

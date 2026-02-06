@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Odds101Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Recharge / Checkout</h2>
+
+<div class="box">
+  <button id="demo">Use Demo</button>
+  <button onclick="location.href='auth.html'">Real Account</button>
+</div>
+
+<div id="app" class="hidden">
+  <input id="phone" placeholder="Phone">
+  <select id="method">
+    <option value="">Choose Method</option>
+    <option value="Crypto">Crypto</option>
+    <option value="Money Service">Money Service</option>
+  </select>
+  <input type="file" id="proof">
+  <input id="txRef" placeholder="Transaction Ref">
+  <button id="submit">Submit Proof</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
